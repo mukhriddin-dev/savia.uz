@@ -1,7 +1,33 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Gilroy-Medium', sans-serif !important;
+}
+/* font-family: 'Gilroy-Bold', sans-serif;
+font-family: 'Gilroy-Heavy', sans-serif;
+font-family: 'Gilroy-Light', sans-serif;
+font-family: 'Gilroy-Medium', sans-serif;
+font-family: 'Gilroy-Regular', sans-serif; */
+
+main{
+  min-height: 90vh;
+  position:relative;
+  top: 0;
+  display: block;
+  background-color: rgba(0, 0, 0, 0);
 }
 
 
+body{
+  background-image: url("./assets/images/sms.webp");
+  background-size: cover;
+  background-position:-50px -90px;
+  background-repeat: no-repeat;
+  overflow-x: hidden !important;
+  width: 100%;
+}
+
+h1,h2,h3,h4,h5,p{
+  font-family: 'Gilroy-Medium', sans-serif !important;
+}

@@ -1,0 +1,62 @@
+.contents {
+   background-color: rgba(255, 255, 255, 0);
+
+   position: relative;
+   top: 30px;
+   margin: auto;
+
+   .text-savia {
+      font-size: 45px;
+      font-weight: 900;
+      color: #fff;
+      text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.698);
+      margin: 0 0 0 180px !important;
+   }
+}
+
+
+
+.controls {
+   background: rgba(255, 255, 255, 0.15);
+   box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+   backdrop-filter: blur(16.5px);
+   -webkit-backdrop-filter: blur(16.5px);
+   border-radius: 10px;
+   border: 1px solid rgba(255, 255, 255, 0.18);
+   backdrop-filter: blur(5px);
+   display: flex;
+   align-items: center;
+   padding: 12px 25px;
+   width: 85%;
+   margin: 0 auto !important;
+   position: relative;
+   top: 140px;
+   justify-content: center;
+   border-radius: 6px;
+
+
+   .changer{
+      background-color: #fff;
+      min-width: 36px;
+      min-height: 36px;
+      display: flex;
+      justify-content: center;
+      align-items:center;
+   }
+
+
+
+   .dt-select {
+      height: 95px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 0 12px;
+      min-width: 250px;
+      max-width: 300px;
+
+
+
+
+   }
+}

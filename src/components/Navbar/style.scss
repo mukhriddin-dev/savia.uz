@@ -1,0 +1,28 @@
+header {
+   background-color: rgba(255, 255, 255, 0.052);
+   backdrop-filter: blur(35px);
+   
+   .nav {
+      width: 100%;
+      background-color: transparent;
+      height: 75px;
+      align-items:center;
+
+      &__logo {
+         height: 56px;
+      }
+      &__ul{
+         text-transform: uppercase;
+         list-style-type: none;
+
+         .btn-log{
+            border: 1px solid #fff;
+            margin: 0 8px;
+         }
+      }
+
+      .dropdown-item{
+         color:rgb(0, 0, 0) !important;
+      }
+   }
+}
