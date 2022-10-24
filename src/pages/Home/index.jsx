@@ -25,7 +25,7 @@ const index = () =>
 
 
                <div className="dt-select">
-                  <select id="from" className="form-select p-3">
+                  <select id="from" className="form-select p-3 rounded-pill">
                      <option value="Toshkent">Toshkent</option>
                   </select>
                </div>
@@ -36,18 +36,25 @@ const index = () =>
                </span>
 
 
+               <div className="dt-select">
+                  <select id="from" className="form-select rounded-pill     p-3">
+                     <option value="Toshkent">Toshkent</option>
+                  </select>
+               </div>
+
+
 
                <div className="dt-select">
-                  <DatePicker selected={startDate} className="form-control p-3" onChange={(date) => setStartDate(date)} />
+                  <DatePicker selected={startDate} className="form-control rounded-pill p-3" onChange={(date) => setStartDate(date)} />
                </div>
 
                <div className="dt-select ">
-                  <DatePicker selected={endDate} value={"-.-.-"} className="form-control p-3" onChange={(date) => setEndDate(date)} />
+                  <DatePicker selected={endDate} value={"-.-.-"} className="form-control rounded-pill  p-3" onChange={(date) => setEndDate(date)} />
                </div>
 
                
-                  <div class="dropdown mx-3">
-                     <button class="btn p-3 btn-light dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  <div class="dropdown mx-3 ">
+                     <button class="btn p-3 btn-light rounded-pill  dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
                         Турини танланг
                      </button>
                      <ul class="dropdown-menu">
@@ -57,8 +64,8 @@ const index = () =>
                      </ul>
                   </div>
              
-             <div className="btn btn-light p-3 mx-2">
-             Излаш
+             <div className="btn btn-light p-3 mx-2 d-flex align-items-center rounded-pill">
+              Излаш <i class="bi ms-2 mt-1 bi-search"></i>
              </div>
 
 

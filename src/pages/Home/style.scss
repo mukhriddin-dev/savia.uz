@@ -54,9 +54,13 @@
       margin: 0 12px;
       min-width: 250px;
       max-width: 300px;
+    
+   }
 
-
-
-
+   .dt-select:nth-child(4){
+      min-width: 120px;
+   }
+   .dt-select:nth-child(5){
+      min-width: 120px;
    }
 }
