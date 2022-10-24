@@ -2,12 +2,13 @@ import React, { useState } from "react";
 import DatePicker from "react-datepicker";
 import "react-datepicker/dist/react-datepicker.css";
 import "./style.scss";
-
+import Count from "./Count";
 const index = () =>
 {
 
    const [startDate, setStartDate] = useState(new Date());
    const [endDate, setEndDate] = useState(new Date());
+
 
 
 
@@ -60,29 +61,32 @@ const index = () =>
 
                <div class="dropdown mx-3 ">
                   <small>Йўловчи </small>
-                  <button class="btn p-3 btn-light rounded-pill  dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  <button class="btn p-3 btn-light rounded-pill  dropdown-toggle" data-bs-auto-close="outside" type="button" data-bs-toggle="dropdown" aria-expanded="false">
                      Турини танланг
                   </button>
                   <ul class="dropdown-menu  menu-dr">
 
                      <ul class="list-group list-group-flush">
-                        <li class="list-group-item">
+                        <li class="list-group-item d-flex align-items-center justify-content-between">
                            <div className="text-inneer d-flex flex-column">
                               <strong>Катталар</strong>
                               <small>12 ёшагача</small>
                            </div>
+                           <Count />
                         </li>
-                        <li class="list-group-item">
+                        <li class="list-group-item d-flex align-items-center justify-content-between">
                            <div className="text-inneer d-flex flex-column">
                               <strong>Болалар</strong>
                               <small>2 дан 12 ёшгача</small>
                            </div>
+                           <Count />
                         </li>
-                        <li class="list-group-item">
+                        <li class="list-group-item d-flex align-items-center justify-content-between">
                            <div className="text-inneer d-flex flex-column">
                               <strong>Чақалоқ</strong>
                               <small>2 ёшгача</small>
                            </div>
+                           <Count />
                         </li>
                         <li class="d-flex p-2 justify-content-around form-check form-switch">
                            <span><input type="radio" name="type" className="form-check-input mx-1" role="switch" /><strong>Иқцодий</strong></span>

@@ -30,9 +30,10 @@
    width: 95%;
    margin: 0 auto !important;
    position: relative;
-   top: 140px;
-   justify-content: center;
+   top: 190px;
+   justify-content: space-evenly;
    border-radius: 6px;
+   padding-left: 130px;
 
 
    .changer {
@@ -101,6 +102,44 @@
 
       small {
          font-size: 11px;
+      }
+   }
+
+   .counter{
+
+      .num{
+         font-size: 24px;
+      }
+      .min{
+         background-color: rgba(99, 99, 99, 0.201);
+         width: 32px;
+         height: 32px;
+         display: flex;
+         justify-content: center;
+         align-items:center;
+         border-radius:50%;
+         font-size: 25px;
+         padding-top: 3px;
+         
+         &:active{
+            background-color: #fff;
+         }
+      }
+      
+
+      .max{
+         background-color: rgba(99, 99, 99, 0.169);
+         width: 32px;
+         height: 32px;
+         display: flex;
+         justify-content: center;
+         align-items:center;
+         border-radius:50%;
+         font-size: 25px;
+         padding-top: 3px;
+         &:active{
+            background-color: #fff;
+         }
       }
    }
 
