@@ -55,7 +55,7 @@ const index = () =>
 
                <div className="dt-select ">
                   <small>Санани танланг</small>
-                  <DatePicker selected={endDate} value={"-.-.-"} className="form-control rounded-pill  p-3" onChange={(date) => setEndDate(date)} />
+                  <DatePicker selected={endDate} className="form-control rounded-pill  p-3" onChange={(date) => setEndDate(date)} />
                </div>
 
 
